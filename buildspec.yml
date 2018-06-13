@@ -16,5 +16,5 @@ phases:
       - ls -l 
 artifacts:
   files:
-    - target/codedeploy-$(date +%Y%m%d%H%m%S).zip
+    - codedeploy-$(date +%Y%m%d%H%m%S).zip
   discard-paths: yes
