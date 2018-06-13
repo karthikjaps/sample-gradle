@@ -16,4 +16,4 @@ phases:
       - ls -l 
 artifacts:
   files:
-      - codedeploy-$(date +%Y%m%d%H%m%S).zip
+      - build/codedeploy-$(date +%Y%m%d%H%m%S).zip
