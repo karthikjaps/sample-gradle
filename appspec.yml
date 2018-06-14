@@ -4,6 +4,10 @@ files:
   - source: /
     destination: /opt/
 hooks:
+  BeforeInstall:
+    - location: scripts/upgrade_java_to_1.8.sh
+      timeout: 300
+      runas: root
   ApplicationStart:
     - location: scripts/start_application.sh
       timeout: 300

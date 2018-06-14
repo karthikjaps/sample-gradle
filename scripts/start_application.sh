@@ -1,7 +1,2 @@
 #!/bin/bash
-
-
-dir="/opt/build/lib"
-
-java -jar /opt/build/lib/demotest-0.0.1-SNAPSHOT.jar
-
+nohup java -jar /opt/build/libs/demotest-0.0.1-SNAPSHOT.jar >> /var/log/java-app.log 2>&1 &
